@@ -1,0 +1,29 @@
+<html>
+<body>
+  <video source="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">Numer 1</a>
+  <a href="http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4">Numer 2</a>
+  <a href="http://techslides.com/demos/sample-videos/small.mp4">Numer 3</a>
+  <a href="https://cdn.theguardian.tv/mainwebsite/2015/07/20/150716YesMen_desk.mp4">Numer 4</a>
+  <a href="http://www.html5videoplayer.net/videos/toystory.mp4">Numer 5</a>
+  <div style="margin-left:50%; margin-top=50%;">
+    <video id="videoPlayer" width="640" height="480" controls="true"></video>
+  </div>
+  <div id="videoLinksScrollbar" style="overflow-y:scroll;">
+    <
+  </div>
+  <script type="text/javascript">
+    var chosenVideoSource="";
+    var videoSources=[ "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4", "http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4", "http://techslides.com/demos/sample-videos/small.mp4",
+  "https://cdn.theguardian.tv/mainwebsite/2015/07/20/150716YesMen_desk.mp4", "http://www.html5videoplayer.net/videos/toystory.mp4"];
+
+    function setCurrentVideoSource(videoSourceIndex){
+      chosenVideoSource=videoSources[videoSourceIndex];
+      var video=document.getElementById('videoPlayer');
+      var source=document.createElement('source');
+      source.setAttribute('src',videoSources[videoSourceIndex]);
+      video.appendChild(source);
+    }
+</body>
+</script>
+
+</html>

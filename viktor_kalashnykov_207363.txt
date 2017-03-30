@@ -1,0 +1,9 @@
+<html>
+<body>
+<a href="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4">Numer 1</a>
+<a href="http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4">Numer 2</a>
+<a href="http://techslides.com/demos/sample-videos/small.mp4">Numer 3</a>
+<a href="https://cdn.theguardian.tv/mainwebsite/2015/07/20/150716YesMen_desk.mp4">Numer 4</a>
+<a href="http://www.html5videoplayer.net/videos/toystory.mp4">Numer 5</a>
+</body>
+</html>
